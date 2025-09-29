@@ -102,3 +102,4 @@ buildConfigField("String", "WEATHER_API_KEY", "\"YOUR_API_KEY_HERE\"")
 - 巴黎 (Paris) 🇫🇷# openWeather
 # openWeather
 # openWeather
+# openWeather
