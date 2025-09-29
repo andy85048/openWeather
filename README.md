@@ -37,11 +37,6 @@ WeatherApp/
 └── buildSrc/               # 構建配置
 ```
 
-### Clean Architecture 三層分離
-- **Data Layer**: 資料來源管理 (API + 本地緩存)
-- **Domain Layer**: 業務邏輯核心 (Use Cases + Entities)
-- **Presentation Layer**: UI 展示層 (ViewModels + Compose UI)
-
 ## 開始使用 🚀
 
 ### 環境要求
@@ -49,21 +44,6 @@ WeatherApp/
 - Kotlin 1.9.20+
 - Android SDK 24+
 
-### 構建專案
-```bash
-# 克隆專案
-git clone [your-repo-url]
-cd WeatherTest
-
-# 構建Debug版本
-./gradlew assembleDebug
-
-# 運行測試
-./gradlew test
-
-# 安裝到設備
-./gradlew installDebug
-```
 
 ### API Key 配置
 專案使用OpenWeatherMap API，需要配置API Key：
@@ -75,23 +55,6 @@ cd WeatherTest
 buildConfigField("String", "WEATHER_API_KEY", "\"YOUR_API_KEY_HERE\"")
 ```
 
-## 專案特點 🌟
-
-### 響應式設計
-- Material 3 設計語言
-- 支援深色/淺色主題
-- 流暢的動畫過渡
-
-### 性能優化
-- 本地數據緩存 (5分鐘過期機制)
-- 智能數據獲取策略
-- 離線模式支援
-
-### 代碼品質
-- 完整的錯誤處理
-- 單元測試覆蓋
-- 遵循 Android 開發最佳實踐
-
 ## 預設城市 🌍
 應用內建以下城市：
 - 台北 (Taipei) 🇹🇼
@@ -99,10 +62,4 @@ buildConfigField("String", "WEATHER_API_KEY", "\"YOUR_API_KEY_HERE\"")
 - 紐約 (New York) 🇺🇸
 - 倫敦 (London) 🇬🇧
 - 雪梨 (Sydney) 🇦🇺
-- 巴黎 (Paris) 🇫🇷# openWeather
-# openWeather
-# openWeather
-# openWeather
-# openWeather
-# openWeather
-# openWeather
+- 巴黎 (Paris) 🇫🇷
