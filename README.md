@@ -99,4 +99,4 @@ buildConfigField("String", "WEATHER_API_KEY", "\"YOUR_API_KEY_HERE\"")
 - 紐約 (New York) 🇺🇸
 - 倫敦 (London) 🇬🇧
 - 雪梨 (Sydney) 🇦🇺
-- 巴黎 (Paris) 🇫🇷
+- 巴黎 (Paris) 🇫🇷# openWeather
