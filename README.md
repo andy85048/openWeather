@@ -17,7 +17,6 @@
 - **非同步處理**: Coroutines + Flow
 - **UI框架**: Jetpack Compose
 - **架構模式**: Clean Architecture
-- **依賴注入**: Hilt/Dagger
 - **本地儲存**: Room Database
 - **網路層**: Retrofit + OkHttp
 - **天氣API**: OpenWeatherMap API
